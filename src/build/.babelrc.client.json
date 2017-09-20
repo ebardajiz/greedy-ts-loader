@@ -1,0 +1,15 @@
+{
+  "babelrc": false,
+  "presets": [
+    ["env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": ["chrome >= 59"]
+        }
+      }
+    ],
+    "react"
+  ],
+  "plugins": ["transform-object-rest-spread"]
+}

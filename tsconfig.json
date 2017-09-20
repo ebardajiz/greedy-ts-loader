@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "jsx": "Preserve",
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "paths": {
+      "Redux": ["src/client/Redux"],
+      "Redux/*": ["src/client/Redux/*"]
+    },
+    "target": "ESNext"
+  }
+}
